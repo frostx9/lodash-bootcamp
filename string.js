@@ -42,3 +42,30 @@ const start1 = _.startCase("i like--programing")
 const start2 = _.startCase("-i likePrograming")
 console.log(start1) // I Like Programing
 console.log(start2) // I Like Programing
+
+// Give Space on Both Side of a string
+const pad = _.pad("abc", 9, "-")
+console.log("Pad", pad)
+
+// Give Space on Begining Side of a string
+const padB = _.padStart("abc", 5, "-")
+console.log(padB);
+
+// Give Space on End Side of a string
+const padE = _.padEnd("abc", 5, "-")
+console.log(padE);
+
+// Remove Space and other char From String . Both Side. Second Option for telling which specaial cahr tobe removed
+const trim = _.trim("--++%^trim", "-+%^")
+console.log(trim)
+//---- Chaing Trim With Other
+const trimC = _.map([" hello ", " world"], _.trim)
+console.log(trimC);
+
+// Remove Space From other char String . Begin Side
+const trimS = _.trimStart("++++hello", "+")
+console.log(trimS)
+
+// Remove Space From other char String . End Side
+const trimE = _.trimEnd("++hello+", "+")
+console.log(trimE)
