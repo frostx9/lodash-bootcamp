@@ -69,3 +69,15 @@ console.log(trimS)
 // Remove Space From other char String . End Side
 const trimE = _.trimEnd("++hello+", "+")
 console.log(trimE)
+
+//Camel Case . To make programing camelCase. Remove Space
+const camel = _.camelCase("hello world")
+console.log("Camel ->", camel);
+
+//Snake Case. It give undersocre in space and change capital later to small later
+const snake = _.snakeCase("Hello World")
+console.log("Snake ->", snake);
+
+//Kabeb Case. It give hi-fen in space and change capital later to small later
+const Kabeb = _.kebabCase("Hello World")
+console.log("Kabeb ->", Kabeb);
