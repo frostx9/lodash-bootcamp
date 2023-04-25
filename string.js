@@ -81,3 +81,7 @@ console.log("Snake ->", snake);
 //Kabeb Case. It give hi-fen in space and change capital later to small later
 const Kabeb = _.kebabCase("Hello World")
 console.log("Kabeb ->", Kabeb);
+
+// Deburr. Remove. It removes diacritical marks
+const deubb = _.deburr("Déjà vu")
+console.log("Deubb ->", deubb);
