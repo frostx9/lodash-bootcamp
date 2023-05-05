@@ -113,9 +113,9 @@ console.log("Kabeb ->", Kabeb);
 
 // Deburr. Remove. It removes diacritical marks
 const deubb = _.deburr("Déjà vu")
-console.log("Deubb ->", deubb);
+console.log("Deubb ->", deubb); // Ans - Deja vu
 
 
 //Escape - To Convert Html Equivalants
 const escape = _.escape("this is <h1> a string </h1>")
-console.log("Escape ->", escape);
+console.log("Escape ->", escape) // Ans - this is &lt;h1&gt; a string &lt;/h1&gt
